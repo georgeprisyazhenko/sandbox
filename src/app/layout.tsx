@@ -6,13 +6,6 @@ export const metadata: Metadata = {
   title: "Мониторинг опционов MOEX",
   description:
     "Отслеживание call-опционов срочного рынка Московской биржи (FORTS)",
-  icons: {
-    icon: [
-      { url: "/iconop.png", type: "image/png" },
-    ],
-    shortcut: "/iconop.png",
-    apple: "/iconop.png",
-  },
 };
 
 export default function RootLayout({
