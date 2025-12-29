@@ -7,7 +7,11 @@ export const metadata: Metadata = {
   description:
     "Отслеживание call-опционов срочного рынка Московской биржи (FORTS)",
   icons: {
-    icon: "/iconop.png",
+    icon: [
+      { url: "/iconop.png", type: "image/png" },
+    ],
+    shortcut: "/iconop.png",
+    apple: "/iconop.png",
   },
 };
 
